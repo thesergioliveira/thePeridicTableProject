@@ -1,1 +1,1 @@
-# thePeridicTableProject
+# thePeriodicTableProject
