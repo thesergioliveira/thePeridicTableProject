@@ -18,9 +18,8 @@ table{
 }
 
 td{
-    /* border: 1px solid black; */
     border-radius: 20%;
-    margin: auto;
+    margin: 1px;
     text-align:center;
 }
 
@@ -75,11 +74,27 @@ tr:nth-child(9) :nth-child(n+2):nth-child(-n+15), tr:nth-child(7) :nth-child(3){
     border: 1px solid lightslategray;
 }
 
+
+
+ /* hover effect for the yellow */
 tr:nth-child(1) :first-child:hover, tr:nth-child(2) :nth-child(n + 14):nth-child(-n +16):hover, tr:nth-child(3) :nth-child(n+15):nth-child(-n+16):hover, tr:nth-child(4) :nth-child(16):hover{
-    opacity: 0.5;
-
-}
-
-tr:nth-child(9) :nth-child(n+2):nth-child(-n+15):hover, tr:nth-child(7) :nth-child(3):hover{
     opacity: 0.7;
+    transform: scale(1.5);
+    transition:800ms;
+    
 }
+
+td:hover{
+    opacity: 0.7;
+    transform: scale(1.5);
+    transition:800ms;
+}
+
+/* hover effect for the rosybrown 
+tr:nth-child(2) :nth-child(2):hover,tr:nth-child(3) :nth-child(2):hover,tr:nth-child(4) :nth-child(2):hover,tr:nth-child(5) :nth-child(2):hover,tr:nth-child(6) :nth-child(2):hover,tr:nth-child(7) :nth-child(2):hover,tr:nth-child(8) :nth-child(2):hover, tr:nth-child(7) :last-child:hover{
+    opacity: 0.7;
+    transform: scale(1.5);
+    transition:800ms;
+}
+
+
